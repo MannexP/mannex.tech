@@ -1,13 +1,5 @@
 
 
-/* .dark-primary-color    { background: #455A64; }
-.default-primary-color { background: #607D8B; }
-.light-primary-color   { background: #CFD8DC; }
-.text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #FFC107; }
-.primary-text-color    { color: #212121; }
-.secondary-text-color  { color: #757575; }
-.divider-color         { border-color: #BDBDBD; } */
 
 
 * {
@@ -33,7 +25,7 @@ body {
 }
 
 header{
-    background-image:linear-gradient(rgba(13, 13, 13, 0.9),rgba(0, 0, 0, 0.5)), url(/main-background.jpg);
+    background-image:linear-gradient(rgb(25, 29, 56, 0.9),rgba(0, 0, 0, 0.1)), url(/hustle.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -44,8 +36,8 @@ header{
 .navBar{
     float:right;
     list-style: none;
-    margin-top:30px; 
-    margin-right:-30px;
+    margin-top:5px; 
+    margin-left:5%;
 
 }
 
@@ -59,7 +51,7 @@ header{
 .navBar li a {
     color:#fff;
     text-decoration: none;
-    font-size: 125%;
+    font-size: 110%;
 }
 
 
@@ -75,9 +67,9 @@ header{
     
 }
 .blurb h1{
-    margin-left:30%;
+    margin-left:25%;
     font-weight: 300;
-    font-size:300%;
+    font-size:350%;
     margin-bottom:4%;
 }
 
@@ -91,14 +83,15 @@ header{
 /* Buttons */
 
 .btn{
-    background-color: rgb(255, 193, 7);
+    background-color:#FFFFFF;
     border-radius: 5px;
-    padding:5px;
+    padding:10px;
     text-decoration: none;
     color: #212121;
     float:right;
     margin-left:30px;
     margin-top:3%;
+    margin:25px 
     
     
 }
