@@ -44,6 +44,9 @@ header{
     margin-left:30px;
     padding-bottom: 50px;
 }
+.navBar li:first-child{
+    display: none;
+}
 .navBar li a {
     color:#fff;
     text-decoration: none;
@@ -102,7 +105,7 @@ span{
     border: 1px solid #3F51B5;
     padding:15px 50px;
     font-size:120%;
-    
+  
 }
     
 
@@ -120,7 +123,6 @@ span{
     font-weight:300;
     letter-spacing: 1;
     padding:15px;
-
 }
 
 .far{
@@ -137,7 +139,7 @@ span{
 
 /* PROJECTS */
 /* -------- */
-.project{
+.project-1{
     background-image:url(/macbook.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -146,17 +148,28 @@ span{
 }
 
 .project-2{
-    background-color:blue;
+    background-color:rgb(239, 241, 248);
     background-image:url(/macbook.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
     height:100vh;
 }
+
+
 
 
 .project-3{
-    background-color:white;
+    background-color:#FFEB3B;
+    background-image:url(/macbook.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height:100vh;
+}
+.project-4{
+    
+    background-color:#FFFFFF;
     background-image:url(/macbook.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -164,12 +177,9 @@ span{
     height:100vh;
 }
 
-.project-4{
-    background-color:blue;
-    background-image:url(/macbook.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    height:100vh;
-}
+.project{
+    margin:0 10px;
+    width:100%;
+   
+    margin:0;
 
