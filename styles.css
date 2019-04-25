@@ -46,7 +46,6 @@ header{
 /* NAV BAR */
 /* -------- */
 .navBar{
-   
     float:right;
     list-style: none;
     margin-top:10px; 
@@ -91,11 +90,12 @@ header{
     top:0;
     left:0;
     width:100%;
-    background-color: rgba(184, 139, 139, 0.97); 
-    background-color:rgb(255, 255, 255, 0.98);
-   
-    box-shadow:0 2px 2px #efefef;
+
+    background-color:rgb(13, 13, 13, 0.9);
+    color:#212121;
+    
     z-index: 9999;
+    height:60px;
 
 
 }
@@ -107,6 +107,10 @@ header{
     padding:  16px 0;
   
 }
+/* -------------------------------------------------------------- */
+/* .sticky .navBar li:first-child{ 
+    display:inline ;
+} */
 
 
 /* SITE HEADING */
