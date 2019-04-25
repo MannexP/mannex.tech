@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="sticky">
             <ul class="navBar">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Projects</a></li>
@@ -27,9 +27,13 @@
             <h3>Atlanta based, Full Stack Web Developer utilizing the MERN Stack & JS. &nbsp; Check out my projects, I
                 made them to share with the world. If you &nbsp; &nbsp; &nbsp &nbsp are seeking a website build,
                 collaboration on a project or are an </br> &nbsp; &nbsp; &nbsp; employer looking to hire, you can reach
-                me <a href="#"><span>here</a></span>. Peace<i class="fas fa-heart"></i>.</h3>
+                me <a href="#"><span>here</a></span>. Peace<i class="fas fa-heart"></i>.
+            </h3>
             <div class="buttons">
-                <a class="btn res-btn" href="#">Resume<i class="far fa-file"></i></a>
+                <a class="btn res-btn" href="#">Resume
+                    <i class="far fa-file">
+                    </i>
+                </a>
                 <a class="btn web-btn" href="#">I need a website<i class="fas fa-long-arrow-alt-right"></i>
 
                 </a>
@@ -40,7 +44,7 @@
     <section class="projects">
         <div class="project project-1">
             <div>
-                <h3>
+                <h3 class="project-description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nesciunt consequatur delectus neque
                     corporis quos sit aperiam atque eum architecto exercitationem fugiat, corrupti a obcaecati, est
                     nihil id, voluptates labore?
@@ -54,31 +58,14 @@
             <div></div>
             <div class="icons">
                 <div>
-                    <img 
-                        src="/img/icons/mongodb.png" 
-                        id="mongo1" 
-                        alt="logo"
-                    >
-                    <img 
-                        style="background-color:orange; border-radius:50%" 
-                        src="/img/icons/express.png" 
-                        alt="logo"
-                    >
+                    <img class="logo" src="/img/icons/mongodb.png" id="mongo1" alt="logo">
+                    <img class="logo" style="background-color:orange; border-radius:50%" src="/img/icons/express.png" alt="logo">
                 </div>
                 <div>
-                        <img 
-                            src="/img/icons/react.png" 
-                            alt="logo"
-                        >
-                        <img 
-                            src="/img/icons/Nodejs.png" 
-                            id="node1"
-                            alt="logo"
-                        >
+                    <img src="/img/icons/react.png" alt="logo">
+                    <img src="/img/icons/Nodejs.png" id="node1" alt="logo">
                 </div>
             </div>
-
-
         </div>
         <div class="project project-2">
 
@@ -89,9 +76,6 @@
         <div class="project project-4">
 
         </div>
-
-
-
     </section>
 
 </body>

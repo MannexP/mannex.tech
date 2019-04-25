@@ -33,9 +33,9 @@ body {
     visibility: hidden;
 
 }
-section {
+/* section {
     padding: 80px 0;
-}
+} */
 header{
     background-image:linear-gradient(rgb(25, 29, 56, 0.9),rgba(0, 0, 0, 0.6)), url(/img/hustle.jpg);
     background-size: cover;
@@ -46,10 +46,13 @@ header{
 /* NAV BAR */
 /* -------- */
 .navBar{
+   
     float:right;
     list-style: none;
     margin-top:10px; 
     margin-right: 25px;
+    
+    
 }
 .navBar li{
     display:inline-block;
@@ -88,24 +91,22 @@ header{
     top:0;
     left:0;
     width:100%;
-    background-color: rgba(255, 255, 255, 0.986);
+    background-color: rgba(184, 139, 139, 0.97); 
+    background-color:rgb(255, 255, 255, 0.98);
+   
     box-shadow:0 2px 2px #efefef;
     z-index: 9999;
 
 
 }
-.sticky .main-nav{ 
+.sticky .navBar{ 
     margin-top: 20px;
 }
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited{
+.sticky .navBar li a:link,
+.sticky .navBar li a:visited{
     padding:  16px 0;
-
-  color: #555;
- 
   
-}  
-
+}
 
 
 /* SITE HEADING */
@@ -199,10 +200,13 @@ span{
 /* -------- */
 
 
+.project-description{
+   margin:25% 10%;
+}
+
 .project-1{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    
     background-image:url(/img/macbook.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -225,15 +229,16 @@ span{
  
     display:grid;
     grid-template-rows: repeat(3,1fr);
+    
 }
 
 .icons img{
     margin-left:15%;
-    margin-top:20%;
+    margin-top:25%;
 }
 
 .project-2{
-    background-color:rgb(239, 241, 248);
+    background-color:#FFEB3B;
     background-image:url(/img/macbook.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -245,7 +250,7 @@ span{
 
 
 .project-3{
-    background-color:#FFEB3B;
+    background-color:rgb(239, 241, 248);
     background-image:url(/img/macbook.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
