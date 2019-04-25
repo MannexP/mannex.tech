@@ -202,6 +202,7 @@ span{
 .project-1{
     display:grid;
     grid-template-columns: repeat(3,1fr);
+    
     background-image:url(/img/macbook.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -209,9 +210,26 @@ span{
     height:100vh;
 }
 
+#mongo1{
+    margin-bottom:5%;
+}
+#node1{
+    margin-bottom:5%;
+}
+
 .project-1 h3{
     color:black;
     
+}
+.icons{
+ 
+    display:grid;
+    grid-template-rows: repeat(3,1fr);
+}
+
+.icons img{
+    margin-left:15%;
+    margin-top:20%;
 }
 
 .project-2{
@@ -251,4 +269,5 @@ span{
     margin:0;
 
 }
+
 
