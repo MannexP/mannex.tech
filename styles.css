@@ -6,6 +6,12 @@
     
 
 }
+.about,
+.projects{
+    margin-bottom:10%;
+    padding-bottom:10%;
+}
+
 * a{
 text-decoration:none;
 }
@@ -207,20 +213,39 @@ span{
 
 .about {
     height:100vh;
-    display:flex;
-    
-
-    
+    display:flex; 
     
 }
 .about-page{
     width:100%;
     display:grid;
     grid-template-columns: 50% 50%;
-
+    grid-template-rows: 25% 50% 25%;
 
 }
+.head-shot{
+    border: 1px solid black;
+    height:15rem;
+    width:15rem;
+    border-radius: 50%;  
+}
+.avatar{
+    margin-left:5rem;
+}
 
+.me{
+    margin-top: 10rem;
+    margin-left:5rem;
+}
+
+.about-me{
+    padding-right:5rem;
+   
+}
+
+.bio{
+    border-left: 2px solid #BDBDBD;
+}
 
 
 
@@ -265,6 +290,7 @@ span{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     background-image:url(/img/macbook.png);
+    background-color:rgba(253, 253, 253, 0.383);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -302,7 +328,8 @@ span{
 }
 
 .project-2{
-    background-color:#FFEB3B;
+    background-color:;
+
     background-image:url(/img/macbook.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -314,7 +341,7 @@ span{
 
 
 .project-3{
-    background-color:rgb(239, 241, 248);
+    background-color:#FFEB3B;
     background-image:url(/img/macbook.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
