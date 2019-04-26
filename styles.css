@@ -205,23 +205,22 @@ span{
 /* ABOUT ME */
 /* ------------ */
 
-.about-me {
+.about {
     height:100vh;
+    display:flex;
+    
+
+    
+    
 }
-.about{
-    width:50%;
-}
-.headshot{
-    height:15rem;
-    width:15rem;
-    border-radius: 50%;
+.about-page{
+    width:100%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+
 
 }
-.bio{
-    float:right;
-    width:400px;
-    background-color:black;
-}
+
 
 
 

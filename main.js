@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
     // For sticky navigation
-    $('.js-projects').waypoint(function (direction) {
+    $('.js-about-me').waypoint(function (direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
         } else {
