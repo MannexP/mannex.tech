@@ -255,6 +255,10 @@ span{
 /* PROJECTS */
 /* -------- */
 
+.projects{
+    margin-bottom:0;
+    padding-block-end: 0%;
+}
 
 .project-description{
   margin-top:10em;
@@ -327,7 +331,7 @@ span{
     height:100vh;
 }
 .project-4{
-    
+
     background-image:url(/img/macbook.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -344,15 +348,26 @@ span{
 }
 
 
+
 /* CONTACT */
 /* ---------------------- */
 .contact{
     height:100vh;
-    background-color:#feffff;
+    background-color:#ffffff;
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows:30% 70%;
+
+    
 }
+
 
 .contact-form{
     height:25rem;
     width:20rem;
-    background-color: black;
-}
+    background-color: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    margin: 0 auto;
+    padding-top:300px;
+   
+} 
