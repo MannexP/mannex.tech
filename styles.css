@@ -244,34 +244,12 @@ span{
 }
 
 .bio{
-    border-left: 2px solid #BDBDBD;
+    border-left: 3px solid #BDBDBD;
+   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bottom{
+    border-left: 3px solid #BDBDBD;
+}
 
 
 /* PROJECTS */
@@ -366,3 +344,15 @@ span{
 }
 
 
+/* CONTACT */
+/* ---------------------- */
+.contact{
+    height:100vh;
+    background-color:#feffff;
+}
+
+.contact-form{
+    height:25rem;
+    width:20rem;
+    background-color: black;
+}
