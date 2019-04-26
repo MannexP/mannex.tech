@@ -223,6 +223,7 @@ span{
 /* ABOUT ME */
 /* ------------ */
 
+
 .about {
     height:100vh;
     display:flex; 
@@ -237,12 +238,13 @@ span{
 }
 .head-shot{
     border: 1px solid black;
-    height:15rem;
-    width:15rem;
+    height:20rem;
+    width:20rem;
     border-radius: 50%;  
 }
 .avatar{
     margin-left:5rem;
+   
 }
 
 .me{
@@ -373,11 +375,12 @@ span{
 }
 .contact-form{
     height:25rem;
-    width:20rem;
+    width:25rem;
     background-color: white;
     box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
     margin: 0 auto;
-    padding-top:300px;
+    
+   
    
 } 
 
@@ -389,3 +392,60 @@ span{
 
 }
 
+input[type=text],
+input[type=email],
+textarea {
+width:60%;
+padding:10px;
+border-radius: 3px;
+border: 1px solid#ccc;
+font-size:15px;
+font-weight: 100;
+}
+
+
+.span-1-of-2{
+    display:flex;
+    justify-content: center;
+    margin-bottom:1rem;
+}
+
+.span-1-of3{
+margin-left:10rem;
+}
+.mess{
+height:200px;
+margin-bottom:1%;
+}
+
+
+
+*:focus{
+    outline: none;
+}
+
+input[value]{
+    font-size:80%;
+}
+
+.heading{
+color:#212121;
+margin-left:5rem;
+}
+
+.send-btn{
+    background-color:#FFEB3B;
+    color:#212121;
+    padding:15px 50px;
+    font-size:120%;
+    width:150px;
+    border-radius:5px;
+    
+
+}
+
+.btm-btn{
+    display:flex;
+    justify-content:center;
+    margin-top:5%;
+}

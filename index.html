@@ -45,6 +45,7 @@
     <section class="about js-about-me">
         <div class="about-page">
             <div class="avatar">
+
                 <img src="/img/headshot.png" class="me head-shot" alt="">
             </div>
             <div class="me about-me">
@@ -59,7 +60,9 @@
                     accusantium sunt, sed odit repellendus fuga error esse animi?
                 </p>
             </div>
-            <div class="1"></div>
+            <div class=" headline">
+
+            </div>
             <div class="bio"></div>
             <div></div>
             <div class="bottom"></div>
@@ -98,53 +101,63 @@
         <div class="project project-4">
         </div>
     </section>
+
     <section class="contact">
         <div class="1"></div>
         <div class="headline">
-            <h2> Let's get in touch!</h2>
+            <h2>Let's get in touch!</h2>
         </div>
         <div class="3"></div>
         <div class="4"></div>
-        <div class="5 ">
-                <form action="#" class="contact-form">
+        <div class="contact-form">
+                <form action="#">
+
+
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label class="heading" for="name">Name</label>
+                            </div>
+                            <div class="col span-1-of-2">
+                                <input type="text" name="name" id="name" placeholder="Your name" required>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label class="heading"for="email">Email</label>
+                            </div>
+                            <div class="col span-1-of-2">
+                                <input type="email" name="email" id="email" placeholder="Your email" required>
+                            </div>
+                        </div>
                         
-                </form>
-
-            <!-- <form action="#">
-                       
-                        <div>
-                            <input type="text" name="name" id="name" placeholder="Your name" required>
-                        </div>
-                        <div>
-                            <label for="email">Email</label>
-                        </div>
-                        <div>
-                            <input type="email" name="email" id="email" placeholder="Your email" required>
-                        </div>
-                        <div>
-                            <label for="find-us">How did you find us?</label>
-                        </div>
-                        <div>
-                            <label>Drop us a line</label>
-                        </div>
-                        <div>
-                            <textarea name="message" placeholder="Your message"></textarea>
-                        </div>
-                        <div>
-                            <label>&nbsp;</label>
-                        </div>
-                        <div>
-                            <input type="submit" value="Send it!">
-                        </div>
-                    </form> -->
-
-
+                        
+                            <div class="row">
+                                <div class="col span-1-of-3">
+                                    <label class="heading" >What brings you by?</label>
+                                </div>
+                                <div class="col mess span-1-of-2">
+                                    <textarea name="message" placeholder="Your message"></textarea>
+                                </div>
+                            </div>
+                            <div class="btm-btn row">
+                                <div class="col span-1-of-3">
+                                    <label>&nbsp;</label>
+                                </div>
+                                <div class="col span-1-of-2">
+                                    <input class="send-btn" type="submit" value="Send it!">
+                                </div>
+                            </div>
+                    </form>
+            
         </div>
         <div class="6"></div>
+    </section>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="/jquery.waypoints.min.js"></script>
-        <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/jquery.waypoints.min.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
