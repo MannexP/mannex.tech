@@ -3,7 +3,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    color:#FFFFFF;
+    
 
 }
 * a{
@@ -109,9 +109,9 @@ header{
   
 }
 /* -------------------------------------------------------------- */
-/* .sticky .navBar li:first-child{ 
+.sticky .navBar li:first-child{ 
     display:inline ;
-} */
+}
 
 
 /* SITE HEADING */
@@ -125,25 +125,25 @@ header{
     
     
 }
-
-
 .blurb h1{
     margin-left:15%;
     font-weight: 100;
     font-size:350%;
     margin-bottom:5%;
-    
+    color:#ffffff;
 }
 
 .blurb h3{
     letter-spacing: 1px;
     word-spacing: 2px;
     font-weight:300;
+    color:#ffffff;
   
 }
 span{
     
     font-weight:400;
+    color:#ffffff;
     text-decoration:  underline wavy#FFEB3B;
 
 }
@@ -202,13 +202,64 @@ span{
 
 }
 
+/* ABOUT ME */
+/* ------------ */
+
+.about-me {
+    height:100vh;
+}
+.about{
+    width:50%;
+}
+.headshot{
+    height:15rem;
+    width:15rem;
+    border-radius: 50%;
+
+}
+.bio{
+    float:right;
+    width:400px;
+    background-color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* PROJECTS */
 /* -------- */
 
 
 .project-description{
-   margin:25% 10%;
+  margin-top:10em;
+  margin-left:5em;
+  margin-right:3em;
+
+   
 }
 
 .project-1{
@@ -241,7 +292,14 @@ span{
 
 .icons img{
     margin-left:15%;
-    margin-top:25%;
+    margin-top:10em;
+    
+}
+.icons img{
+    margin-left:15%;
+    margin-top:10em;
+    
+    
 }
 
 .project-2{
