@@ -6,6 +6,18 @@
     
 
 }
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color:#FFEB3B;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px; 
+
+
+}
 .about,
 .projects{
     margin-bottom:10%;
@@ -348,7 +360,6 @@ span{
 }
 
 
-
 /* CONTACT */
 /* ---------------------- */
 .contact{
@@ -360,8 +371,6 @@ span{
 
     
 }
-
-
 .contact-form{
     height:25rem;
     width:20rem;
@@ -371,3 +380,12 @@ span{
     padding-top:300px;
    
 } 
+
+.contact .headline{
+    display:flex;
+    justify-content:center;
+    margin-top:10%;
+    color:#212121;
+
+}
+
