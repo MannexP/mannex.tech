@@ -37,7 +37,7 @@ body {
     padding: 80px 0;
 } */
 header{
-    background-image:linear-gradient(rgb(25, 29, 56, 0.9),rgba(0, 0, 0, 0.6)), url(/img/hustle.jpg);
+    background-image:linear-gradient(rgb(25, 29, 56, 0.7),rgba(0, 0, 0, 0.96)), url(/img/hustle.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -90,10 +90,9 @@ header{
     top:0;
     left:0;
     width:100%;
-
-    background-color:rgb(13, 13, 13, 0.9);
-    color:#212121;
     
+    background-color:rgb(239, 241, 248, 0.9);
+    color:#212121;
     z-index: 9999;
     height:60px;
 
@@ -104,6 +103,8 @@ header{
 }
 .sticky .navBar li a:link,
 .sticky .navBar li a:visited{
+    font-weight: 300;
+    color:#212121;
     padding:  16px 0;
   
 }
@@ -164,8 +165,9 @@ span{
 
 .res-btn{
     
-    background-color:#3F51B5;
-    border: 1px solid #3F51B5;
+    background-color:#FFEB3B;
+    /* border: 1px solid #FFEB3B; */
+    color:#212121;
     padding:15px 50px;
     font-size:120%;
   
@@ -190,6 +192,7 @@ span{
 
 .far{
     margin-left: 20px;
+    color:#212121;
 }
 
 .fas{

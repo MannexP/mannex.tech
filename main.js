@@ -1,11 +1,19 @@
-$(document).ready(function() {
-    $('.js--projects').waypoint(function(direction){
+
+$(document).ready(function () {
+    // For sticky navigation
+    $('.js-projects').waypoint(function (direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
         } else {
-        $('nav').removeClass('sticky');
+            $('nav').removeClass('sticky');
         }
-    })
+    });
+  
+
+
 
    
-})
+});
+
+console.log("hello");
+
