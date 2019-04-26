@@ -418,6 +418,9 @@ height:200px;
 margin-bottom:1%;
 }
 
+#name{
+    margin-top:2%;
+}
 
 
 *:focus{
@@ -436,8 +439,8 @@ margin-left:5rem;
 .send-btn{
     background-color:#FFEB3B;
     color:#212121;
-    padding:15px 50px;
-    font-size:120%;
+    padding:15px 40px;
+
     width:150px;
     border-radius:5px;
     
@@ -447,5 +450,6 @@ margin-left:5rem;
 .btm-btn{
     display:flex;
     justify-content:center;
-    margin-top:5%;
+    margin-top:3%;
+    font-size:120%;
 }
