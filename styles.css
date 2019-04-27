@@ -290,7 +290,7 @@ p{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     background-image:url(/img/macbook.png);
-    /* background-color÷:rgba(253, 253, 253, 0.383); */
+    background-color:rgba(253, 253, 253, 0.383);
     
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -330,7 +330,7 @@ p{
 
 .project-2{
     
-
+    background-color:blue;
     background-image:url(/img/macbook.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
