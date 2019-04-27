@@ -463,3 +463,12 @@ margin-left:5rem;
     margin-top:3%;
     font-size:120%;
 }
+
+/* Animations */
+/* --------------------- */
+.js-wp-1 {
+    opacity:0;
+}
+.js-wp-1 .animated {
+    opacity: 2;
+}
