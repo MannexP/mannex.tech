@@ -20,7 +20,7 @@ h2:after{
 }
 .about,
 .projects{
-    margin-bottom:10%;
+    margin-bottom:5%;
     padding-bottom:10%;
 }
 
@@ -222,48 +222,52 @@ span{
 
 /* ABOUT ME */
 /* ------------ */
-
-
 .about {
     height:100vh;
-    display:flex; 
+    display:grid;
+    grid-template-rows:10% 10% 80%;
+    margin: 0;
+    padding:0;
     
 }
-.about-page{
-    width:100%;
-    display:grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 50% 25%;
+.about-me-headline{
+
+    display:flex;
+    justify-content: center;
+    padding:.5rem;
+    color:#212121;
 
 }
+.about-me{
+
+    display:grid;
+    grid-template-columns: 10% 40% 40% 10%;
+
+}
+
+
 .head-shot{
-    border: 1px solid black;
+    border: 1px solid #bdbdbd;
     height:20rem;
     width:20rem;
     border-radius: 50%;  
-}
-.avatar{
-    margin-left:5rem;
-   
-}
-
-.me{
-    margin-top: 10rem;
-    margin-left:5rem;
-}
-
-.about-me{
-    padding-right:5rem;
-   
+    margin-top:3rem;
+      
 }
 
 .bio{
-    border-left: 3px solid #BDBDBD;
-   
+    display:grid;
+    grid-template-rows: 10% 70% 20%;
 }
-.bottom{
+.about-me-blurb{
     border-left: 3px solid #BDBDBD;
 }
+p{
+    padding-left: 5rem;
+}
+
+
+
 
 
 /* PROJECTS */
@@ -286,7 +290,8 @@ span{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     background-image:url(/img/macbook.png);
-    background-color:rgba(253, 253, 253, 0.383);
+    /* background-color÷:rgba(253, 253, 253, 0.383); */
+    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
