@@ -199,13 +199,25 @@ span{
 .web-btn:link,
 .web-btn:visited{
    
-    border: 1px solid  rgba(197,202,233, 0.1);
+    border: 1px solid  rgba(100,92,23, 0.3);
     color:#FFFFFF;
-    background-color: rgba(197,202,233, 0.1);
+    background-color: rgba(100,92,23, 0.3);
+    border: 1px solid rgba(100,92,23, 0.3);
     font-size:120%;
     font-weight:300;
     letter-spacing: 1;
     padding:15px;
+}
+
+.web-btn:hover,
+.web-btn:active{
+background-color:rgba(100, 92, 23, 0.6);
+color:#FFFFFF;
+}
+.res-btn:hover,
+.res-btn:active{
+background-color:rgb(231, 213, 53);
+
 }
 
 .far{
@@ -216,9 +228,10 @@ span{
 .fas{
     margin-left: 10px;
     color:#FFEB3B;
-   
-
 }
+
+
+
 
 /* ABOUT ME */
 /* ------------ */
@@ -248,8 +261,8 @@ span{
 
 .head-shot{
     border: 1px solid #bdbdbd;
-    height:20rem;
-    width:20rem;
+    height:25rem;
+    width:25rem;
     border-radius: 50%;  
     margin-top:3rem;
       
