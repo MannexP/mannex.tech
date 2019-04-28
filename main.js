@@ -18,8 +18,7 @@ $(document).ready(function () {
         .click(function (event) {
             // On-page links
             if (
-                location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-                &&
+                location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')&&
                 location.hostname == this.hostname
             ) {
                 // Figure out element to scroll to
@@ -41,7 +40,7 @@ $(document).ready(function () {
                         } else {
                             $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
                             $target.focus(); // Set focus again
-                        };
+                        }
                     });
                 }
             }
@@ -51,7 +50,7 @@ $(document).ready(function () {
 
             $('.js-wp-1').waypoint(function(direction) {
                 $('.js-wp-1').addClass('animated fadeIn');
-            })
+            });
 
 
    
