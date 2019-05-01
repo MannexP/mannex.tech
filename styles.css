@@ -55,7 +55,7 @@ body {
     padding: 80px 0;
 } */
 header{
-    background-image:linear-gradient(rgb(25, 29, 56, 0.7),rgba(0, 0, 0, 0.96)), url(/img/hustle.jpg);
+    background-image:linear-gradient(rgb(25, 29, 56, 0.9),rgba(0, 0, 0, 0.8)), url(/img/hustle.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -262,8 +262,8 @@ background-color:rgb(231, 213, 53);
 
 .head-shot{
     border: 1px solid #bdbdbd;
-    height:25rem;
-    width:25rem;
+    height:22rem;
+    width:22rem;
     border-radius: 50%;  
     margin-top:3rem;
       
@@ -509,7 +509,7 @@ footer{
     list-style: none;
     align-items: stretch;
     float:right;   
-    padding-top:2rem;
+    padding-top:2.5rem;
 } 
 
 .links{
