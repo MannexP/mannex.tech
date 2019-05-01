@@ -70,6 +70,7 @@ header{
     margin-right: 25px;
     
     
+    
 }
 .navBar li{
     display:inline-block;
@@ -475,6 +476,12 @@ margin-left:5rem;
     justify-content:center;
     margin-top:3%;
     font-size:120%;
+}
+
+footer{
+    background-color:#303f9f;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 /* Animations */
