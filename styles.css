@@ -389,7 +389,7 @@ p{
 /* CONTACT */
 /* ---------------------- */
 .contact{
-    height:90vh;
+    height:100vh;
     background-color:#ffffff;
     display:grid;
     grid-template-columns: 20% 60% 20%;
@@ -484,23 +484,43 @@ footer{
     padding: 0;
     height:10vh;
 }
-
-.social-links{
+/* FOOTER */
+/* ---------------- */
+footer{
+    height:15vh;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+.copy{
+    color:#BDBDBD;
+    font-weight:100;
+    margin-top:4rem;
+    display:flex;
+    justify-content:center;
+ 
+}
+.copy p{
+    margin-right:6rem;
+    font-weight:100;
+}
+ .social-links{
     display:flex;
     justify-content:flex-end;
     list-style: none;
     align-items: stretch;
-    
-}
-.links{
-    color:white;
-    font-size: 2rem;
-   
-    margin-right:2rem;
-   
-}
+    float:right;   
+    padding-top:2rem;
+} 
 
-/* Animations */
+.links{
+    color:#BDBDBD;
+    font-size: 3rem;
+    margin-right:6rem;
+    opacity: 0.9;
+} 
+
+
+/* Animations
 /* --------------------- */
 .js-wp-1 {
     opacity:0;
