@@ -389,7 +389,7 @@ p{
 /* CONTACT */
 /* ---------------------- */
 .contact{
-    height:100vh;
+    height:90vh;
     background-color:#ffffff;
     display:grid;
     grid-template-columns: 20% 60% 20%;
@@ -482,6 +482,22 @@ footer{
     background-color:#303f9f;
     margin-bottom: 0;
     padding: 0;
+    height:10vh;
+}
+
+.social-links{
+    display:flex;
+    justify-content:flex-end;
+    list-style: none;
+    align-items: stretch;
+    
+}
+.links{
+    color:white;
+    font-size: 2rem;
+   
+    margin-right:2rem;
+   
 }
 
 /* Animations */
