@@ -293,7 +293,7 @@ p{
 /* -------- */
 
 .projects{
-    margin-bottom:0;
+    margin-bottom:0px;
     padding-block-end: 0%;
 }
 
@@ -314,6 +314,7 @@ p{
     background-attachment: fixed;
     background-position: center; 
     height:100vh;
+   
 }
 .project-1 h3{
     color:black; 
@@ -348,13 +349,15 @@ img #mongo1{
 
 
 .project-2{
-    
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
     background-color:#3f51b5;
-    background-image:url(/img/macbook.png);
+    background-image:url(/img/icons/ncr_project.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
     height:100vh;
+    padding-top:0;
 }
 
 
