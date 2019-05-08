@@ -308,7 +308,7 @@ p{
 .project-1{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    background-image:url(/img/macbook.png);
+    background-image:url(/img/icons/Daug-project.png);
     background-color:rgb(241, 240, 240);
     background-repeat: no-repeat;
     background-attachment: fixed;
