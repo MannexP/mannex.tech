@@ -17,6 +17,16 @@ h1:after{
     margin: 0 auto;
     margin-top: 30px; 
 }
+ h2:after{
+    display: block;
+    height: 2px;
+    background-color:#FFEB3B;
+    content: "  ";
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px; 
+    margin-left: 80px;
+}
 
 .about,
 .projects{
