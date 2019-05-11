@@ -8,7 +8,7 @@ h1{
     font-size:300%;
     font-weight:300;
 }
-h1:after{
+h1::after{
     display: block;
     height: 2px;
     background-color:#FFEB3B;
@@ -25,8 +25,19 @@ h1:after{
     width: 400px;
     margin: 0 auto;
     margin-top: 30px; 
-    margin-left: 80px;
+    margin-left: 85px;
 }
+ h4:after{
+    display: block;
+    height: 2px;
+    background-color:#FFEB3B;
+    content: "  ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px; 
+    margin-left:0px;
+}
+
 
 .about,
 .projects{
@@ -307,12 +318,22 @@ p{
 }
 
 .project-description{
-  margin-top:10em;
+  margin-top:15rem;
   margin-left:5em;
   margin-right:3em;
 
-   
 }
+.project-description h4{
+    font-size:175%;
+
+}
+.project-description h3{
+    margin-top: 30px;
+    font-size:120%
+}
+
+
+ 
 
 .project-1{
     display:grid;
@@ -326,8 +347,8 @@ p{
     height:100vh;
    
 }
-.project-1 h3{
-    color:black; 
+.project-1 h3,h4{
+    color:#212121; 
 }
 
 .icons{
@@ -359,7 +380,7 @@ p{
 .project-2{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    background-color:#FFEB3B;
+    background-color:#303f9f;
     background-image:url(/img/icons/ncr_project.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -367,6 +388,7 @@ p{
     height:100vh;
     padding-top:0;
 }
+
 
 
 
