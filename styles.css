@@ -367,18 +367,17 @@ p{
 .icons{
     display:grid;
     grid-template-rows: repeat(4,1fr); 
+    border-left:3px solid #BDBDBD
 }
 .icons img{
     margin-top:5em;
-    padding:0;
-
+    padding:0; 
 }
 
 .logo{
-    padding:-30px;
-    margin:-30px;
-
+    margin-left:10rem;
 }
+
 
 
 
@@ -396,23 +395,6 @@ p{
     padding-top:0;
 }
 
-#django{
-    margin-top:10rem;
-}
-
-#react{
-    margin-top:0px;
-}
-
-.psql img{
-    margin-left:15rem;
-    margin-top:0;
-    margin-bottom:50px;
-
-}
-#python{
-    margin-top:7rem;
-}
 
 
 
