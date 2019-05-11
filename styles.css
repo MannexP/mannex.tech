@@ -309,6 +309,7 @@ p{
 
 
 
+
 /* PROJECTS */
 /* -------- */
 
@@ -316,6 +317,19 @@ p{
     margin-bottom:0px;
     padding-block-end: 0%;
 }
+.project-1{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    background-image:url(/img/icons/Daug-project.png);
+    background-color:#fdfdfd;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height:100vh;
+   
+}
+
+
 
 .project-description{
   margin-top:15rem;
@@ -340,7 +354,6 @@ p{
     grid-template-columns: repeat(3,1fr);
     background-image:url(/img/icons/Daug-project.png);
     background-color:#fdfdfd;
-
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -367,14 +380,6 @@ p{
 
 }
 
-.logoR{
-    margin-left:15rem;
-    margin-top:0;
-    margin-bottom:30px;
-}
-.logoL{
-    margin-left:1rem;
-}
 
 
 
@@ -400,7 +405,9 @@ p{
 }
 
 .psql img{
- margin:0;
+    margin-left:15rem;
+    margin-top:0;
+    margin-bottom:50px;
 
 }
 #python{
