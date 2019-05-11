@@ -364,11 +364,13 @@ p{
 .logo{
     padding:-30px;
     margin:-30px;
+
 }
 
 .logoR{
     margin-left:15rem;
     margin-top:0;
+    margin-bottom:30px;
 }
 .logoL{
     margin-left:1rem;
@@ -389,6 +391,21 @@ p{
     padding-top:0;
 }
 
+#django{
+    margin-top:10rem;
+}
+
+#react{
+    margin-top:0px;
+}
+
+.psql img{
+ margin:0;
+
+}
+#python{
+    margin-top:7rem;
+}
 
 
 
